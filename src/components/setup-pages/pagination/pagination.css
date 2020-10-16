@@ -1,0 +1,23 @@
+.setup-header .pagination{
+    margin: 0;
+    padding: 25px 0;
+}
+
+.pagination li{
+    width: 4%;
+    height: 10px;
+    background-color: rgb(98, 98, 175);
+    margin: auto 5px;
+}
+
+.pagination li:first-child{
+    border-radius: 45% 0 0 45%;
+}
+
+.pagination li:last-child{
+    border-radius: 0 45% 45% 0;
+}
+
+.pagination-button-activated{
+    background-color: blue !important;
+}

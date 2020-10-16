@@ -1,0 +1,5 @@
+export const LANDING = '/'
+export const CONFIRMATION = '/confirmation'
+export const SETUP = '/setup'
+export const HOME = '/home'
+export const PLANNER = '/home/planner'

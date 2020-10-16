@@ -1,0 +1,87 @@
+.home-root{
+    display: flex;
+    flex-direction: row;
+}
+
+.home-nav{
+    height: 64px;
+}
+
+/* 
+side nav isn't in home folder, in /other. just makes sense to put it here since it's mainly used by
+components in the home folder
+*/
+.side-nav{
+    background-color: #ede7f6; /* deep purple lighten-5 */
+    position: fixed;
+    left: -300px;
+    flex-grow: 1;
+    width: 300px;
+    height: 100%;
+    z-index: 1;
+
+    transition: 0.8s;
+
+}
+
+.main-page{
+    position: fixed;
+    transition: 1s;
+    left: 0%;
+    flex-grow: 8;
+    width: 100%;
+
+    transition: 0.8s;
+}
+
+.main-page.side-nav-activate{
+    left: 300px;
+
+    transition: 0.8s;
+}
+
+.side-nav.side-nav-activate{
+    left: 0%;
+    box-shadow: 10px 0px 10px rgba(38, 12, 12, 0.19);
+
+    transition: 0.8s;
+}
+
+.side-nav-header{
+    position: relative;
+    background-color: green;
+    height: 64px;
+}
+
+.user-pic{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: hotpink;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.user-name{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+.side-nav .collection{
+    margin: 0px;
+}
+
+.side-nav .collection-item{
+    background-color: #ede7f6;
+}
+
+.side-nav .collection-item:first-child{
+    padding-top: 40px;
+}
+
+.side-nav .collection-item a{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,43 @@
+.confirm-header{
+    background-color: maroon;
+    height: 64px;
+    box-shadow: 0px 0px 5px 0px;
+    text-align: center;
+}
+
+.confirm-header h2{
+    color: white;
+    margin: 0;
+}
+
+.setup-header{
+    background-color: hotpink;
+    box-shadow: 0px 0px 5px 0px;
+    text-align: center;
+}
+
+.setup-page-title{
+    margin: 0;
+    padding: 10px;
+}
+
+.setup-root{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.setup-page p{
+    text-align: center;
+}
+
+/* #signup-fname, #signup-lname{
+    width: 50%;
+} */
+
+/* .setup-left-btn{
+    margin: 5% 0 0 3%;
+}
+
+.setup-right-btn{
+    margin: 5% 3% 0 0;
+} */
